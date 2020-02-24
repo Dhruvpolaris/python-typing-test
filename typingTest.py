@@ -36,7 +36,7 @@ if confirm == 's':
         time_arr.append(round(time_taken,3))
         attempt +=1
     print('***** TEST RESULT *****')
-    print('You got',count,' /5 Correct!')
+    print('Accuracy:',count,' /5 Correct!')
     print('')
     show_res = input("Press 'A' to view detailed analysis of your test: ").lower()
     if show_res == 'a':
